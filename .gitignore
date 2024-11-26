@@ -1,0 +1,43 @@
+# Target directory, contains compiled binaries and other build artifacts
+/target/
+
+# Incremental compilation files
+**/*.d
+**/*.incremental
+
+# Build artifacts and metadata for Cargo (Rust's package manager)
+/Cargo.lock
+/.cargo/
+
+# Debugging files
+*.log
+
+# IDE-specific settings (add your specific IDE or editor here)
+# IntelliJ IDEA
+.idea/
+
+# VS Code
+.vscode/
+
+# Emacs
+*~
+\#*\#
+
+# Vim
+*.swp
+*.swo
+*.un~
+
+# MacOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+
+# Custom settings or secrets
+.env
